@@ -1,0 +1,21 @@
+
+{
+  "name": "demos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "jest": "^30.3.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint demos/**",
+    "lint:fix": "eslint demos/** --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
